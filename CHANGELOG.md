@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [3.2.1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.2.0...v3.2.1) (2024-08-08)
+
+
+### Miscellaneous Chores
+
+* update goreleaser config version to 2 ([865c55b](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/865c55b56b8cec06772758173476c67db39c828b))
+
 ## [3.2.0](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.1.0...v3.2.0) (2024-08-08)
 
 
