@@ -3,6 +3,7 @@
 [![](https://img.shields.io/github/license/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](LICENSE)
 [![](https://img.shields.io/github/actions/workflow/status/muhlba91/telegraf-output-kinesis-data-firehose/verify.yml?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/actions/workflows/verify.yml)
 [![](https://img.shields.io/coveralls/github/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/)
+[![](https://api.scorecard.dev/projects/github.com/muhlba91/telegraf-output-kinesis-data-firehose/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/telegraf-output-kinesis-data-firehose)
 [![](https://img.shields.io/github/release-date/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/releases)
 [![](https://img.shields.io/github/downloads/muhlba91/telegraf-output-kinesis-data-firehose/total?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/releases)
 <a href="https://www.buymeacoffee.com/muhlba91" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="150"></a>
