@@ -6,7 +6,7 @@ toolchain go1.23.3
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.32.4
-	github.com/aws/aws-sdk-go-v2/service/firehose v1.34.4
+	github.com/aws/aws-sdk-go-v2/service/firehose v1.34.5
 	github.com/influxdata/telegraf v1.32.2
 	github.com/stretchr/testify v1.9.0
 )
