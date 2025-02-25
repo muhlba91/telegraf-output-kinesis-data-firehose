@@ -1,13 +1,11 @@
 module github.com/muhlba91/telegraf-output-kinesis-data-firehose
 
-go 1.23.0
-
-toolchain go1.23.6
+go 1.24.0
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.2
 	github.com/aws/aws-sdk-go-v2/service/firehose v1.36.6
-	github.com/influxdata/telegraf v1.33.2
+	github.com/influxdata/telegraf v1.33.3
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -85,7 +83,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/sleepinggenius2/gosmi v0.4.4 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
-	github.com/testcontainers/testcontainers-go v0.34.0 // indirect
+	github.com/testcontainers/testcontainers-go v0.35.0 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
@@ -101,10 +99,10 @@ require (
 	go.opentelemetry.io/otel/metric v1.34.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
 	go.step.sm/crypto v0.54.0 // indirect
-	golang.org/x/crypto v0.32.0 // indirect
+	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241209162323-e6fa225c2576 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250124145028-65684f501c47 // indirect
 	google.golang.org/protobuf v1.36.4 // indirect
