@@ -6,24 +6,13 @@ repos:
       - id: conform
         stages:
           - commit-msg
-  - repo: https://github.com/Bahjat/pre-commit-golang
-    rev: v1.0.3
-    hooks:
-      - id: gofumpt
-      - id: golangci-lint
-        args: [
-            "-c .golangci.yml"
-        ]
-  - repo: https://github.com/syntaqx/git-hooks
-    rev: v0.0.18
-    hooks:
-      - id: go-mod-tidy
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
       - id: check-json
+        exclude: .eslintrc.json|node_modules/*
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-toml
@@ -34,18 +23,19 @@ repos:
             "--allow-missing-credentials"
         ]
       - id: detect-private-key
+        exclude: node_modules/*
 #      - id: no-commit-to-branch
 #        args: [
 #            "--branch",
-#            "master",
+#            "main",
 #            "--branch",
 #            "next"
 #        ]
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.24.0
+    rev: v8.24.2
     hooks:
       - id: gitleaks
-  - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 3.0.0
+  - repo: https://github.com/golangci/golangci-lint
+    rev: v2.0.2
     hooks:
-      - id: shellcheck
+      - id: golangci-lint

@@ -112,7 +112,7 @@ func (f *Firehose) Connect() error {
 	f.debug(fmt.Sprintf("connecting to the Amazon Kinesis Data Firehose %s in region %s", f.StreamName, f.Region))
 
 	// Fetch and verify AWS credentials.
-	cfg, err := f.CredentialConfig.Credentials()
+	cfg, err := f.Credentials()
 	if err != nil {
 		return err
 	}
