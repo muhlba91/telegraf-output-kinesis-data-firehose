@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [3.2.3](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.2.2...v3.2.3) (2025-04-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v4.6.0 ([7aea110](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/7aea110878ba310be9c905ea96f76386bc792567))
+* **deps:** update github/codeql-action action to v3.28.14 ([baab673](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/baab67330468212fea99bffa0eec87e41297456c))
+* **deps:** update github/codeql-action action to v3.28.15 ([4656b00](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/4656b0024a39709db9fbab1eda4c8536883385e7))
+* **deps:** update module github.com/aws/aws-sdk-go-v2/service/firehose to v1.37.2 ([531cf8f](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/531cf8fddc2d33322531b7fef16b2e4c8b43c3c7))
+* **deps:** update module github.com/aws/aws-sdk-go-v2/service/firehose to v1.37.3 ([a116906](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/a116906c0569b25e0792ab967789d5efcca9b0fb))
+* **deps:** update step-security/harden-runner action to v2.11.1 ([6d6b1b4](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/6d6b1b4474c26277c17dc05622b2667ae69d29ce))
+
 ## [3.2.2](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.2.1...v3.2.2) (2025-03-31)
 
 
