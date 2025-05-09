@@ -22,7 +22,7 @@ func TestSerialize(t *testing.T) {
 	metric := testutil.TestMetric("value", "test")
 	j, err := s.Serialize(metric)
 	assert.NoError(t, err)
-	assert.Equal(t, `{"fields":{"value":"value"},"name":"test","tags":{"tag1":"value1"},"timestamp":"2009-11-10T23:00:00Z"}`, strings.TrimSpace(string(j))) //nolint:golint,lll
+	assert.Equal(t, `{"fields":{"value":"value"},"name":"test","tags":{"tag1":"value1"},"timestamp":"2009-11-10T23:00:00Z"}`, strings.TrimSpace(string(j))) //nolint:lll
 }
 
 func TestSerializeBatch(t *testing.T) {
@@ -31,7 +31,7 @@ func TestSerializeBatch(t *testing.T) {
 	metric2 := testutil.TestMetric("value2", "test1")
 	j, err := s.SerializeBatch([]telegraf.Metric{metric1, metric2})
 	assert.NoError(t, err)
-	assert.Equal(t, `{"metrics":[{"fields":{"value":"valu1e"},"name":"test1","tags":{"tag1":"value1"},"timestamp":"2009-11-10T23:00:00Z"},{"fields":{"value":"value2"},"name":"test1","tags":{"tag1":"value1"},"timestamp":"2009-11-10T23:00:00Z"}]}`, strings.TrimSpace(string(j))) //nolint:golint,lll
+	assert.Equal(t, `{"metrics":[{"fields":{"value":"valu1e"},"name":"test1","tags":{"tag1":"value1"},"timestamp":"2009-11-10T23:00:00Z"},{"fields":{"value":"value2"},"name":"test1","tags":{"tag1":"value1"},"timestamp":"2009-11-10T23:00:00Z"}]}`, strings.TrimSpace(string(j))) //nolint:lll
 }
 
 func TestCreateObject(t *testing.T) {
