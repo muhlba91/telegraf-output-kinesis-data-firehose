@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.5
 	github.com/aws/aws-sdk-go-v2/service/firehose v1.37.7
-	github.com/influxdata/telegraf v1.35.0
+	github.com/influxdata/telegraf v1.35.1
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -22,16 +22,16 @@ require (
 	github.com/awnumar/memcall v0.4.0 // indirect
 	github.com/awnumar/memguard v0.22.5 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.29.15 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.17.68 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.30 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.17.69 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.31 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.36 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.36 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.15 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.25.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.33.20 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.16 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.25.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.33.21 // indirect
 	github.com/aws/smithy-go v1.22.4 // indirect
 	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
@@ -99,7 +99,7 @@ require (
 	github.com/tklauser/numcpus v0.7.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.60.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
 	go.opentelemetry.io/otel v1.36.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.19.0 // indirect
 	go.opentelemetry.io/otel/metric v1.36.0 // indirect
@@ -110,7 +110,7 @@ require (
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250512202823-5a2f75b736a9 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250528174236-200df99c418a // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
