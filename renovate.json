@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
+        "config:recommended",
         ":dependencyDashboard",
         ":semanticCommitTypeAll(chore)"
     ],
@@ -15,14 +15,14 @@
         "gomod"
     ],
     "github-actions": {
-        "fileMatch": [
-            "^(workflow-templates|\\.github/workflows)/[^/]+\\.ya?ml$",
-            "(^|/)action\\.ya?ml$"
+        "managerFilePatterns": [
+            "/^(workflow-templates|\\.github/workflows)/[^/]+\\.ya?ml$/",
+            "/(^|/)action\\.ya?ml$/"
         ]
     },
     "gomod": {
-        "fileMatch": [
-            "(^|/)go\\.mod$"
+        "managerFilePatterns": [
+            "/(^|/)go\\.mod$/"
         ]
     }
 }
