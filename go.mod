@@ -3,8 +3,8 @@ module github.com/muhlba91/telegraf-output-kinesis-data-firehose
 go 1.25.0
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.38.2
-	github.com/aws/aws-sdk-go-v2/service/firehose v1.41.1
+	github.com/aws/aws-sdk-go-v2 v1.38.3
+	github.com/aws/aws-sdk-go-v2/service/firehose v1.41.2
 	github.com/influxdata/telegraf v1.35.4
 	github.com/stretchr/testify v1.11.1
 )
@@ -24,8 +24,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.31.0 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.4 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.3 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.5 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.5 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.6 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.6 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.3 // indirect
