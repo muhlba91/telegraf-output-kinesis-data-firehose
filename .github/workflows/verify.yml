@@ -34,7 +34,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        go-version: [ 1.25.x ]
+        go-version: [1.25.x]
 
     steps:
       - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
@@ -47,7 +47,7 @@ jobs:
 
       - uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
         with:
-          go-version: '${{ matrix.go-version }}'
+          go-version: "${{ matrix.go-version }}"
 
       - run: |
           make build
@@ -58,8 +58,8 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        go-version: [ 1.25.x ]
-        golangci-lint-version: [v2.4.0]
+        go-version: [1.25.x]
+        golangci-lint-version: [v2.6.2]
 
     steps:
       - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
@@ -72,11 +72,11 @@ jobs:
 
       - uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
         with:
-          go-version: '${{ matrix.go-version }}'
+          go-version: "${{ matrix.go-version }}"
 
       - uses: golangci/golangci-lint-action@0a35821d5c230e903fcfe077583637dea1b27b47 # v9.0.0
         with:
-          version: '${{ matrix.golangci-lint-version }}'
+          version: "${{ matrix.golangci-lint-version }}"
           args: -c .golangci.yml
           skip-cache: true
           skip-save-cache: true
@@ -86,7 +86,7 @@ jobs:
     name: Run Tests
     strategy:
       matrix:
-        go-version: [ 1.25.x ]
+        go-version: [1.25.x]
 
     steps:
       - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
@@ -99,7 +99,7 @@ jobs:
 
       - uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
         with:
-          go-version: '${{ matrix.go-version }}'
+          go-version: "${{ matrix.go-version }}"
 
       - run: |
           make test
