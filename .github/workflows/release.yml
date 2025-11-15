@@ -75,5 +75,4 @@ jobs:
             dist/*.tar.gz
             dist/*.sbom.json
             dist/*_checksums.txt
-            dist/*.sig
-            dist/*.pem
+            dist/*.sigstore.json
