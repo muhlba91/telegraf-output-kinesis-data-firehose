@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/aws/aws-sdk-go-v2 v1.41.0
 	github.com/aws/aws-sdk-go-v2/service/firehose v1.42.8
-	github.com/influxdata/telegraf v1.36.4
+	github.com/influxdata/telegraf v1.37.0
 	github.com/stretchr/testify v1.11.1
 )
 
