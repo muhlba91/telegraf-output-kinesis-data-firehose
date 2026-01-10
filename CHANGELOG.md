@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [3.4.1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.4.0...v3.4.1) (2026-01-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/attest-build-provenance action to v3.1.0 ([c6112f1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/c6112f14cc7bfa448c8915a8c4766dcc5a4844fa))
+* **deps:** update anchore/sbom-action action to v0.21.0 ([4b87b09](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/4b87b094d6ca2995fcbd7efd6c377d5e8ea96fa3))
+* **deps:** update anchore/sbom-action action to v0.21.1 ([c8dce30](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/c8dce3037dad1d8eca6c298f31754af5c429cb32))
+* **deps:** update aws-sdk-go-v2 monorepo ([72cca0a](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/72cca0af1dd1102af087c6323fe704c2e8323bed))
+* **deps:** update github/codeql-action action to v4.31.9 ([6366270](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/63662708eac9de8a714d28cc54910bc500d7a1e7))
+
 ## [3.4.0](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.3.1...v3.4.0) (2025-12-13)
 
 
