@@ -90,7 +90,6 @@ require (
 	github.com/shirou/gopsutil/v4 v4.26.1 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/sleepinggenius2/gosmi v0.4.4 // indirect
-	github.com/stoewer/go-strcase v1.3.1 // indirect
 	github.com/testcontainers/testcontainers-go v0.40.0 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect

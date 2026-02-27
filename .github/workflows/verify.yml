@@ -106,3 +106,4 @@ jobs:
       - uses: shogo82148/actions-goveralls@25f5320d970fb565100cf1993ada29be1bb196a1 # v1.10.0
         with:
           path-to-profile: coverage.out
+        continue-on-error: true
