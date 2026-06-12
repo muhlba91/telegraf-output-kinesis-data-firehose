@@ -269,6 +269,8 @@ github.com/aws/aws-sdk-go-v2/service/firehose v1.43.1 h1:f0AbdvgFEbOYRyN40g3bPtI
 github.com/aws/aws-sdk-go-v2/service/firehose v1.43.1/go.mod h1:qqoVY9wPMXeJhWDLI+dfPGimSKm/rMCp+kvNDgFqN4c=
 github.com/aws/aws-sdk-go-v2/service/firehose v1.43.2 h1:1vL+aUoq2+kBSy2I10eUUid7O/MQ0W+rw1KJa6WNojQ=
 github.com/aws/aws-sdk-go-v2/service/firehose v1.43.2/go.mod h1:/nsZWAG30JZpqIYSvwyMZ80N/vODYxWO1V6+UCep6ug=
+github.com/aws/aws-sdk-go-v2/service/firehose v1.44.0 h1:q6T5aspSBzFsHFB1qoWc5t/dx/yKvh/KiIfidd63Y50=
+github.com/aws/aws-sdk-go-v2/service/firehose v1.44.0/go.mod h1:/nsZWAG30JZpqIYSvwyMZ80N/vODYxWO1V6+UCep6ug=
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.9 h1:FLudkZLt5ci0ozzgkVo8BJGwvqNaZbTWb3UcucAateA=
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.9/go.mod h1:w7wZ/s9qK7c8g4al+UyoF1Sp/Z45UwMGcqIzLWVQHWk=
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.11 h1:rFSsqDfCMPAmG70JOsYqFZCHXkyatoGa1K4YEt/BggQ=
