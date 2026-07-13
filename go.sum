@@ -217,6 +217,8 @@ github.com/aws/aws-sdk-go-v2/service/firehose v1.44.2 h1:lSvgDwvTTS4TTAUL+zCTrT9
 github.com/aws/aws-sdk-go-v2/service/firehose v1.44.2/go.mod h1:wbrcmlTkgaD9bkM2qcJ4KQTcfk7b++3hJLAXp/nvQ0I=
 github.com/aws/aws-sdk-go-v2/service/firehose v1.45.0 h1:No8p3wbFBp94zxaYXjDUxR2wdhXocJa2etihNyuxE+4=
 github.com/aws/aws-sdk-go-v2/service/firehose v1.45.0/go.mod h1:wbrcmlTkgaD9bkM2qcJ4KQTcfk7b++3hJLAXp/nvQ0I=
+github.com/aws/aws-sdk-go-v2/service/firehose v1.45.1 h1:xT2PkYjFbDLGOEa+lfV9smqlcOlEQN2bco3NTuqFYlQ=
+github.com/aws/aws-sdk-go-v2/service/firehose v1.45.1/go.mod h1:wbrcmlTkgaD9bkM2qcJ4KQTcfk7b++3hJLAXp/nvQ0I=
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.12 h1:ZD2+BSw9vFsNlKYIasSNt3uDbjqqXIBcM13UJv/Lx2k=
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.12/go.mod h1:Ms4zlcVBbXbiP7EVLhl+lgjvA/a7YphqQ3Ih3174EmI=
 github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.13 h1:JRaIgADQS/U6uXDqlPiefP32yXTda7Kqfx+LgspooZM=
