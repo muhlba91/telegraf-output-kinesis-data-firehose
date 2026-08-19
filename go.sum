@@ -936,6 +936,8 @@ github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 github.com/stretchr/testify v1.12.0 h1:K6Mr6jO9JICuend/5xzTM03ydSV3vdNRYAdPSukj8uI=
 github.com/stretchr/testify v1.12.0/go.mod h1:bOYBZb5qJ00vPzWfIqBUZPaxK8jWiXc6d3ErP4Ca9Gw=
+github.com/stretchr/testify v1.12.1 h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE=
+github.com/stretchr/testify v1.12.1/go.mod h1:MDEgiDPPsNp5cuIrHPPCyornHKgEVbtFUmoNlxoYthg=
 github.com/tdrn-org/go-hue v1.2.0 h1:GjLkbOhDCgK/i/Kp+d9S5gJ8DKSsLk8edpn5PNBHnHs=
 github.com/tdrn-org/go-hue v1.2.0/go.mod h1:WW/nt+xwuz7f2XIfe6aMMKzmqN0jXjeSEA6c0F9j6js=
 github.com/tdrn-org/go-nsdp v0.5.1 h1:w80Y5zF02nEopj/ycTcsDzeq5DgYeKquvGe8xuWXcEM=
