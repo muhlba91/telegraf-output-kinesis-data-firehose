@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [3.5.2](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.5.1...v3.5.2) (2026-08-21)
+
+
+### Miscellaneous Chores
+
+* **deps:** update aws-sdk-go-v2 monorepo ([57eb8fa](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/57eb8fa21c0b9997b2d01f0cc0f07c30f94f3847))
+* **deps:** update github/codeql-action action to v4.37.8 ([29ae3b7](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/29ae3b7f6e691d8ffc7198dd95e4b7de650f5e2c))
+* **deps:** update module github.com/stretchr/testify to v1.12.0 ([8d586b4](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/8d586b4c4869c05a1accbd69e2e1da6479b902c8))
+* **deps:** update module github.com/stretchr/testify to v1.12.1 ([92be24a](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/92be24aac8f21eac47515107aff023cf482d3723))
+
 ## [3.5.1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.5.0...v3.5.1) (2026-08-15)
 
 
