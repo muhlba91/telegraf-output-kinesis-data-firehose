@@ -1,11 +1,11 @@
 module github.com/muhlba91/telegraf-output-kinesis-data-firehose
 
-go 1.26.0
+go 1.27.0
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.47.0
 	github.com/aws/aws-sdk-go-v2/service/firehose v1.52.0
-	github.com/influxdata/telegraf v1.39.3
+	github.com/influxdata/telegraf v1.40.0
 	github.com/stretchr/testify v1.12.1
 )
 
@@ -21,18 +21,18 @@ require (
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
 	github.com/awnumar/memcall v0.5.0 // indirect
 	github.com/awnumar/memguard v0.23.0 // indirect
-	github.com/aws/aws-sdk-go-v2/config v1.32.37 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.19.36 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.37 // indirect
+	github.com/aws/aws-sdk-go-v2/config v1.33.1 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.20.1 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.19.1 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.3 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.3 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.38 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.17 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.37 // indirect
-	github.com/aws/aws-sdk-go-v2/service/signin v1.5.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.33.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.38.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.45.6 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.5.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.19 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.14.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/signin v1.7.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.35.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.40.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.47.1 // indirect
 	github.com/aws/smithy-go v1.28.1 // indirect
 	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
@@ -42,7 +42,7 @@ require (
 	github.com/containerd/errdefs v1.0.0 // indirect
 	github.com/containerd/errdefs/pkg v0.3.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
-	github.com/containerd/platforms v0.2.1 // indirect
+	github.com/containerd/platforms v1.0.0-rc.5 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -55,7 +55,7 @@ require (
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
-	github.com/gobwas/glob v0.2.3 // indirect
+	github.com/gobwas/glob v1.0.0 // indirect
 	github.com/golang-jwt/jwt/v5 v5.3.1 // indirect
 	github.com/google/cel-go v0.31.0 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
@@ -70,7 +70,7 @@ require (
 	github.com/magiconair/properties v1.18.11 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
-	github.com/mattn/go-runewidth v0.0.27 // indirect
+	github.com/mattn/go-runewidth v0.0.28 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
 	github.com/moby/go-archive v0.3.3 // indirect
 	github.com/moby/moby/api v1.55.0 // indirect
@@ -87,7 +87,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/power-devops/perfstat v0.0.0-20260805114148-88456608a4f6 // indirect
 	github.com/shirou/gopsutil/v4 v4.26.7 // indirect
-	github.com/sirupsen/logrus v1.10.0 // indirect
+	github.com/sirupsen/logrus v1.10.2 // indirect
 	github.com/sleepinggenius2/gosmi v0.4.4 // indirect
 	github.com/testcontainers/testcontainers-go v0.44.0 // indirect
 	github.com/tidwall/gjson v1.19.0 // indirect
@@ -100,17 +100,17 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.70.0 // indirect
-	go.opentelemetry.io/otel v1.45.0 // indirect
-	go.opentelemetry.io/otel/metric v1.45.0 // indirect
-	go.opentelemetry.io/otel/trace v1.45.0 // indirect
-	go.step.sm/crypto v0.88.0 // indirect
+	go.opentelemetry.io/otel v1.46.0 // indirect
+	go.opentelemetry.io/otel/metric v1.46.0 // indirect
+	go.opentelemetry.io/otel/trace v1.46.0 // indirect
+	go.step.sm/crypto v0.89.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.55.0 // indirect
-	golang.org/x/exp v0.0.0-20260813180055-c1d0aacb2297 // indirect
+	golang.org/x/exp v0.0.0-20260824195058-e88cd73687aa // indirect
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/text v0.41.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260810153831-ec0a7760b754 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260810153831-ec0a7760b754 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260825221802-da73d73af1c5 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
