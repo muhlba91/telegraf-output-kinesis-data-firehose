@@ -597,6 +597,8 @@ github.com/influxdata/tail v1.0.1-0.20241014115250-3e0015cb677a h1:IJBVizlP2eArw
 github.com/influxdata/tail v1.0.1-0.20241014115250-3e0015cb677a/go.mod h1:VeiWgI3qaGdJWust2fP27a6J+koITo/1c/UhxeOxgaM=
 github.com/influxdata/telegraf v1.40.0 h1:X/4VMyeKsrHstJE9+w4vwNClaZAKotuTW32FXi7k+uM=
 github.com/influxdata/telegraf v1.40.0/go.mod h1:Awu7QaPIQdT4+HHD5iJqe36UI8yO5CxMAqIGuaS+oK8=
+github.com/influxdata/telegraf v1.40.1 h1:Khy9nYrFIml530V+g6RapoQAOK24/cV7njcyVEdIXY0=
+github.com/influxdata/telegraf v1.40.1/go.mod h1:yG27zk7+ern+nL5TW6CHRaobxSJBXnKgjCFuo/pab8c=
 github.com/influxdata/toml v0.0.0-20251106153700-c381e153d076 h1:FqEkdokbxeBpCtZix3tLcIu2/OClDLCoKlbKXFLOEwo=
 github.com/influxdata/toml v0.0.0-20251106153700-c381e153d076/go.mod h1:zApaNFpP/bTpQItGZNNUMISDMDAnTXu9UqJ4yT3ocz8=
 github.com/intel/iaevents v1.1.0 h1:FzxMBfXk/apG2EUXUCfaq3gUQ+q+TgZ1HNMjjUILUGE=
