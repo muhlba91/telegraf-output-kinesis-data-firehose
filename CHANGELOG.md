@@ -1,6 +1,15 @@
 # Changelog
 
 
+## [3.6.1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.6.0...v3.6.1) (2026-09-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update aws-sdk-go-v2 monorepo ([7ad9901](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/7ad9901c2af7ab529902b6ce07b25f33a16e343d))
+* **deps:** update github/codeql-action action to v4.38.2 ([453f429](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/453f429b29e5fb4a7017e0fd99386c6bb075cb2d))
+* **deps:** update module github.com/influxdata/telegraf to v1.40.1 ([4dd03a5](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/4dd03a5ec8e31748bf5892868b399000e8568f13))
+
 ## [3.6.0](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.5.1...v3.6.0) (2026-09-19)
 
 
