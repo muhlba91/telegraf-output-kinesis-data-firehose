@@ -114,6 +114,10 @@ See the file [`plugin.conf`](plugin.conf) as an example configuration file.
 
 The plugin was inspired by the [Amazon Kinesis Data Stream Output Plugin](https://github.com/morfien101/telegraf-output-kinesis).
 
+## Development
+
+Tool versions (Go, golangci-lint, goreleaser) are managed with [mise](https://mise.jdx.dev): run `mise trust` and `mise install` once, then use the `make` targets.
+
 ## Supporting
 
 If you enjoy the application and want to support my efforts, please feel free to buy me a coffe. :)

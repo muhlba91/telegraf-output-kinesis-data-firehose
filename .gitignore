@@ -148,3 +148,5 @@ yarn.lock
 local.conf
 build/
 .vscode/
+# mise
+mise.local.toml
