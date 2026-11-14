@@ -1,6 +1,15 @@
 # Changelog
 
 
+## [3.6.2](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.6.1...v3.6.2) (2026-11-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency goreleaser to v2.20.2 ([f6ba0aa](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/f6ba0aa8fabe37268225a30228304d3f5f16db20))
+* **deps:** update jdx/mise-action action to v5.2.8 ([0ae1ff2](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/0ae1ff2c74ef61a1ec77c431d1ca8b149a406f0b))
+* **deps:** update module go.opentelemetry.io/otel/trace to v1.47.0 [security] ([18cbade](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/18cbadebb98289cc691b6a0d7d3c614ed86aace0))
+
 ## [3.6.1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.6.0...v3.6.1) (2026-11-11)
 
 
