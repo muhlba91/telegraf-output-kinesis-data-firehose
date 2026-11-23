@@ -1,11 +1,11 @@
 # Telegraf Output Plugin for Amazon Kinesis Data Firehose
 
-[![](https://img.shields.io/github/license/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](LICENSE)
-[![](https://img.shields.io/github/actions/workflow/status/muhlba91/telegraf-output-kinesis-data-firehose/verify.yml?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/actions/workflows/verify.yml)
-[![](https://img.shields.io/coveralls/github/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/)
-[![](https://api.scorecard.dev/projects/github.com/muhlba91/telegraf-output-kinesis-data-firehose/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/telegraf-output-kinesis-data-firehose)
-[![](https://img.shields.io/github/release-date/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/releases)
-[![](https://img.shields.io/github/downloads/muhlba91/telegraf-output-kinesis-data-firehose/total?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/releases)
+[![License](https://img.shields.io/github/license/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](LICENSE)
+[![Verify](https://img.shields.io/github/actions/workflow/status/muhlba91/telegraf-output-kinesis-data-firehose/verify.yml?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/actions/workflows/verify.yml)
+[![Coverage](https://img.shields.io/coveralls/github/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/muhlba91/telegraf-output-kinesis-data-firehose/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/telegraf-output-kinesis-data-firehose)
+[![Release date](https://img.shields.io/github/release-date/muhlba91/telegraf-output-kinesis-data-firehose?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/releases)
+[![Downloads](https://img.shields.io/github/downloads/muhlba91/telegraf-output-kinesis-data-firehose/total?style=for-the-badge)](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/releases)
 <a href="https://www.buymeacoffee.com/muhlba91" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="150"></a>
 
 ---
@@ -27,7 +27,7 @@ It expects that the configuration for the output ship data in line format.
 ## About Amazon Kinesis Data Firehose
 
 It may be useful for users to review Amazons official documentation which is
-available [here](https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html).
+available in the [official documentation](https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html).
 
 ## Usage
 
