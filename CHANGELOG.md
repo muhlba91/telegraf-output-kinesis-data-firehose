@@ -1,6 +1,32 @@
 # Changelog
 
 
+## [3.6.2](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.6.1...v3.6.2) (2026-11-28)
+
+
+### Miscellaneous Chores
+
+* **ci:** add actionlint job ([e4f45ab](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/e4f45abdbe2da01706424727f34b043185e63e3e))
+* **deps:** update actions/dependency-review-action action to v5.0.1 ([81bab5c](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/81bab5c2bbdf3aec0108ea912ad384b7e4c9ba79))
+* **deps:** update actions/setup-go action to v7.1.0 ([490a3a5](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/490a3a51b41a5e89e6fa633d72903180d9d46bcb))
+* **deps:** update anchore/sbom-action action to v0.24.4 ([7c254af](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/7c254af262c233879bddf9d28b14387e98c5b213))
+* **deps:** update aws-sdk-go-v2 monorepo ([f5282f7](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/f5282f7c0725a2c6307a5b6a094da15f01a3b8d6))
+* **deps:** update aws-sdk-go-v2 monorepo ([1da522c](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/1da522cd797991d29f6f71e52abfe2ea0ee60e50))
+* **deps:** update dependency goreleaser to v2.20.2 ([f6ba0aa](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/f6ba0aa8fabe37268225a30228304d3f5f16db20))
+* **deps:** update dependency goreleaser to v2.20.3 ([77977bc](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/77977bc3c187855415bc7fe138afcdd2f4c284d2))
+* **deps:** update github/codeql-action action to v4.39.4 ([ef2c4ab](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/ef2c4abee1565aa3c42a2246350e6f2927a24ed8))
+* **deps:** update github/codeql-action action to v4.39.5 ([3659fae](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/3659fae43babb4878dfe8c5b43cfeb6fb8b7bff8))
+* **deps:** update jdx/mise-action action to v5.2.10 ([acbbc86](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/acbbc86b9c7a26569a90a1604edd0b6f9ef51d35))
+* **deps:** update jdx/mise-action action to v5.2.8 ([0ae1ff2](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/0ae1ff2c74ef61a1ec77c431d1ca8b149a406f0b))
+* **deps:** update jdx/mise-action action to v5.2.9 ([badcc56](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/badcc5693bbc830d7b9a02fcecad27dbbc696bdd))
+* **deps:** update jdx/mise-action action to v5.3.0 ([a0421d9](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/a0421d9a341931221c16a0b8baaa1bd8aacddf9e))
+* **deps:** update module github.com/influxdata/telegraf to v1.40.4 ([d3404be](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/d3404be4e4fc70636d97a2febbc836c945bc3f41))
+* **deps:** update module go.opentelemetry.io/otel/trace to v1.47.0 [security] ([18cbade](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/18cbadebb98289cc691b6a0d7d3c614ed86aace0))
+* **deps:** update ossf/scorecard-action action to v2.6.0 ([23f4bda](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/23f4bda0d04086b9b7219844d599fce239d73bcd))
+* **deps:** update sigstore/cosign-installer action to v4.1.4 ([ef44bda](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/ef44bdaa90aa40e2a2af770f32ab2b65156a0853))
+* **deps:** update step-security/harden-runner action to v2.23.0 ([5727dc1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/5727dc12790f04ba0e6a343e3e8309abed662b4b))
+* update pre-commit config ([78e6678](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/commit/78e667809c566f25f0e52b21b1bd3b89ed4a61f9))
+
 ## [3.6.1](https://github.com/muhlba91/telegraf-output-kinesis-data-firehose/compare/v3.6.0...v3.6.1) (2026-11-11)
 
 
